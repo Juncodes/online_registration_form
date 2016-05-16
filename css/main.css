@@ -72,7 +72,7 @@ select {
 	padding: 15px;
 	width: 100%;
 	background-color: #e8eeef;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 input:focus,
 textarea:focus,
@@ -89,8 +89,11 @@ select {
    height: 45px;
 }
 fieldset {
-	border: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
+
 
 /********************************************
 	BOTTOM -- PAGE (CHECKBOX/RADIO BUTTON)
